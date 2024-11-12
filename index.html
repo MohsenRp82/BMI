@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/L.css">
+    <link rel="stylesheet" href="./style/m.css">
+    <link rel="stylesheet" href="./style/s.css">
+    <link rel="stylesheet" href="./style/xs.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <img src="./images/icons8-bmi-100.png" alt="">
+            <h1>BMI Calculation</h1>
+        </div>
+        <div class="BMI-main">
+            <section class="person-height">
+                <h3>Height(cm)</h3>
+                <input class="person-height-range" type="range" min="120" max="220" value="120">
+                <h3 class="height-result">120</h3>
+            </section>
+            <section class="person-weight">
+                <h3>Weight(kg)</h3>
+                <input class="person-weight-range" type="range" min="40" max="200" value="40">
+                <h3 class="weight-result">40</h3>
+            </section>
+            <section class="BMI-result">
+                <h2></h2>
+                <h2 class="scope"></h2>
+            </section>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
